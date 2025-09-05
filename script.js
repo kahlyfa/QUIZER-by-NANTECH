@@ -4,8 +4,8 @@ const questions = [
         answers: [
             { text: "A Program is a set of instructions that tells the computer what to do.", correct: true},
             { text: "A program is an Electronic device that accepts, process and presents data.", correct: false},
-            { text: "A Glovo", correct: false},
-            { text: "A Giraffe", correct: false},
+            { text: "A digital conversation", correct: false},
+            { text: "A group of meaningless codes", correct: false},
         ]
     },
     {
