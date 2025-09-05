@@ -2,10 +2,10 @@ const questions = [
     {
         question: "what is a Program?",
         answers: [
-            { text: "A Program is a set of instructions that tells the computer what to do.", correct: "true"},
-            { text: "A program is an Electronic device that accepts, process and presents data.", correct: "false"},
-            { text: "A Glovo", correct: "false"},
-            { text: "A Giraffe", correct: "false"},
+            { text: "A Program is a set of instructions that tells the computer what to do.", correct: true},
+            { text: "A program is an Electronic device that accepts, process and presents data.", correct: false},
+            { text: "A Glovo", correct: false},
+            { text: "A Giraffe", correct: false},
         ]
     },
     {
@@ -269,7 +269,7 @@ const questions = [
             { text: "Editing photos", correct: "false"},
         ]
     },
-]
+
     {
         question: "What is the default file extension for powerpoint?",
         answers: [
@@ -427,8 +427,8 @@ const questions = [
     {
         question: "Which attribute adds space between table cells?",
         answers: [
-            { text: "CellSpacing", correct: "false"},
-            { text: "CellPadding", correct: "true"},
+            { text: "CellSpacing", correct: "true"},
+            { text: "CellPadding", correct: "false"},
             { text: "Border", correct: "false"},
             { text: "Margin", correct: "false"},
         ]
@@ -441,7 +441,8 @@ const questions = [
             { text: "Merge", correct: "false"},
             { text: "Span", correct: "false"},
         ]
-    }
+    },
+];
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-button");
