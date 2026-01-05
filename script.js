@@ -1,354 +1,354 @@
 const questions = [
     {
-        question: "what is a Program?",
+        question: "Microsoft Word is mainly used for?",
         answers: [
-            { text: "A Program is a set of instructions that tells the computer what to do.", correct: true},
-            { text: "A program is an Electronic device that accepts, process and presents data.", correct: false},
-            { text: "A digital conversation", correct: false},
-            { text: "A group of meaningless codes", correct: false},
+            { text: "Typing documents.", correct: true},
+            { text: "Drawing.", correct: false},
+            { text: "Making videos.", correct: false},
+            { text: "Browsing internet.", correct: false},
         ]
     },
     {
-        question: "What is Storage?",
+        question: "What is the default file extension for word?",
         answers: [
-            { text: "Storage is where we keep our clothes", correct: "false"},
-            { text: "Storage is a folder", correct: "false"},
-            { text: "Storage is a local folder", correct: "false"},
-            { text: "Storage is where computer keeps information like files, documents and folders.", correct: "true"},
-        ]
-    },
-    {
-        question: "what type of storage is volatile?",
-        answers: [
-            { text: "Read Onl Memory (ROM)", correct: "false"},
-            { text: "Read Only Storage", correct: "false"},
-            { text: "Random Access storage", correct: "false"},
-            { text: "Random Access Memory (RAM)", correct: "true"},
-        ]
-    },
-    {
-        question: "Which type of memory is read only and cannot be modified?",
-        answers: [
-            { text: "Random access memory", correct: "false"},
-            { text: "Read only memory", correct: "true"},
-            { text: "Option 1", correct: "false"},
-            { text: "Option 2", correct: "false"},
-        ]
-    },
-    {
-        question: "Which storage devices uses magnetic disks to store data?",
-        answers: [
-            { text: "Pen drive", correct: "false"},
-            { text: "Hard Disk Drive (HDD)", correct: "true"},
-            { text: "Memory card", correct: "false"},
-            { text: "USB drive", correct: "false"},
-        ]
-    },
-    {
-        question: "What does SSD stand for?",
-        answers: [
-            { text: "Solid State Drive", correct: "true"},
-            { text: "State Solid Drive", correct: "false"},
-            { text: "Start State Drive", correct: "false"},
-            { text: "Sleep Stand Drive", correct: "false"},
-        ]
-    },
-    {
-        question: "What is the unit of measurement for storage capacity?",
-        answers: [
-            { text: "Kevin bytes", correct: "false"},
-            { text: "Dalu bytes", correct: "false"},
-            { text: "Kamsi bytes", correct: "false"},
-            { text: "Bytes (e.g KB, MB, GB, TB)", correct: "true"},
-        ]
-    },
-    {
-        question: "What type of storage is the USB Flash?",
-        answers: [
-            { text: "It is a fast storage.", correct: "false"},
-            { text: "Secondary Storage (portable, non-volatile, solid state).", correct: "true"},
-            { text: "A programming language is a sign language", correct: "false"},
-            { text: "A programming language is a language with which we communicate our feelings.", correct: "false"},
-        ]
-    },
-    {
-        question: "Which type of storage is permanently used to store files in the computer?",
-        answers: [
-            { text: "The RAM", correct: "false"},
-            { text: "The flash drive", correct: "false"},
-            { text: "The ROM", correct: "true"},
-            { text: "The memory card", correct: "false"},
-        ]
-    },
-    {
-        question: "Which file extension is the default for word document?",
-        answers: [
-            { text: ".doc", correct: "false"},
-            { text: ".txt", correct: "false"},
-            { text: ".pdf", correct: "false"},
+            { text: ".PPT", correct: "false"},
+            { text: ".xls", correct: "false"},
+            { text: ".cdr", correct: "false"},
             { text: ".docx", correct: "true"},
         ]
     },
     {
-        question: "Which shortcut key is used to copy selected text?",
+        question: "Which tool makes text bold?",
         answers: [
-            { text: "CTRL + X", correct: "false"},
-            { text: "CTRL + V.", correct: "false"},
-            { text: "CTRL + C", correct: "true"},
-            { text: "CTRL + A", correct: "false"},
+            { text: "S", correct: "false"},
+            { text: "U", correct: "false"},
+            { text: "I", correct: "false"},
+            { text: "B", correct: "true"},
         ]
     },
     {
-        question: "Which tab in MS word contains the 'font' and 'paragraph' groups?",
+        question: "Which toll changes text size?",
         answers: [
-            { text: "The Isert tab", correct: "false"},
-            { text: "The layout tab", correct: "false"},
-            { text: "The review tab", correct: "false"},
-            { text: "The Home tab", correct: "true"},
+            { text: "Font size", correct: "true"},
+            { text: "font height", correct: "false"},
+            { text: "cut", correct: "false"},
+            { text: "print", correct: "false"},
         ]
     },
     {
-        question: "What does CTRL + Z do in MS word?",
+        question: "Which key moves text to a new line?",
         answers: [
-            { text: "Redo", correct: "false"},
-            { text: "Save", correct: "false"},
-            { text: "Duplicate", correct: "false"},
-            { text: "Undo", correct: "true"},
+            { text: "Space bar", correct: "false"},
+            { text: "Shift", correct: "false"},
+            { text: "ctrl", correct: "false"},
+            { text: "Enter", correct: "true"},
         ]
     },
     {
-        question: "What feature in MS word helps check spelling and grammar?",
+        question: "What is used to save a document?",
         answers: [
-            { text: "Thesarus", correct: "false"},
-            { text: "WordArt", correct: "false"},
-            { text: "SmartArt", correct: "false"},
-            { text: "Spell Checker", correct: "true"},
+            { text: "ctrl + C", correct: "false"},
+            { text: "ctrl + V", correct: "false"},
+            { text: "ctrl + S", correct: "true"},
+            { text: "ctrl + V", correct: "false"},
         ]
     },
     {
-        question: "What is the default orientation of a new word document?",
+        question: "Which option aligns text to the center?",
         answers: [
-            { text: "Landscape", correct: "false"},
-            { text: "Portrait", correct: "true"},
-            { text: "Square", correct: "false"},
-            { text: "A4", correct: "false"},
+            { text: "Left", correct: "false"},
+            { text: "Right", correct: "false"},
+            { text: "Center", correct: "true"},
+            { text: "Justify", correct: "false"},
         ]
     },
     {
-        question: "What does HTML stand for?",
+        question: "What is a document?",
         answers: [
-            { text: "Hyper things markup language", correct: "false"},
-            { text: "Hyper Text Markup Language", correct: "true"},
-            { text: "Hyper Task Marking Language", correct: "false"},
-            { text: "Hyper Task Money Language.", correct: "false"},
+            { text: "A game.", correct: "false"},
+            { text: "A typed file.", correct: "true"},
+            { text: "A picture.", correct: "false"},
+            { text: "A song.", correct: "false"},
         ]
     },
     {
-        question: "What are HTML tags?",
+        question: "Which tool checks spelling mistakes?",
         answers: [
-            { text: "HTML tags are children of HTML", correct: "false"},
-            { text: "HTML tags are opening and closing tags", correct: "false"},
-            { text: "HTML tags tells the browser to shut up", correct: "false"},
-            { text: "HTML tags tells the browser what to do and how to do it.", correct: "true"},
+            { text: "The RAM", correct: "false"},
+            { text: "Grammar tool", correct: "false"},
+            { text: "Spell checker", correct: "true"},
+            { text: "Find", correct: "false"},
         ]
     },
     {
-        question: "Which of these option is used to create a list with bullets?",
+        question: "What is used to print a word document?",
         answers: [
-            { text: "Insert > Bullets", correct: "false"},
-            { text: "Home > Bullets", correct: "true"},
-            { text: "Layout > List", correct: "false"},
-            { text: "Review > Bullets", correct: "false"},
+            { text: "A scanner.", correct: "false"},
+            { text: "A printer.", correct: "true"},
+            { text: "A monitor.", correct: "false"},
+            { text: "Speaker.", correct: "false"},
         ]
     },
     {
-        question: "Which shortcut key is used to save a document?",
+        question: "Excel is mainly used for?",
         answers: [
-            { text: "CTRL + X", correct: "false"},
-            { text: "CTRL + S", correct: "true"},
-            { text: "CTRL + P", correct: "false"},
-            { text: "CTRL + D", correct: "false"},
+            { text: "Typing letters.", correct: "false"},
+            { text: "Data and calculations.", correct: "true"},
+            { text: "Drawing.", correct: "false"},
+            { text: "Playing music.", correct: "false"},
         ]
     },
     {
-        question: "Which part of the computer looks like a TV",
+        question: "What is a cell in Excel?",
         answers: [
-            { text: "Keyboard", correct: "false"},
-            { text: "Monitor", correct: "true"},
-            { text: "Mouse", correct: "false"},
-            { text: "Printer", correct: "false"},
+            { text: "A row.", correct: "false"},
+            { text: "A column.", correct: "false"},
+            { text: "A box where data is entered.", correct: "true"},
+            { text: "The Home tab.", correct: "false"},
         ]
     },
     {
-        question: "Which device do we use to type letters and numbers?",
+        question: "Which symbol starts a formula in Excel?",
         answers: [
-            { text: "Keyboard", correct: "true"},
-            { text: "CPU", correct: "false"},
-            { text: "Monitor", correct: "false"},
+            { text: "+", correct: "false"},
+            { text: "-", correct: "false"},
+            { text: "=", correct: "true"},
+            { text: "*", correct: "false"},
+        ]
+    },
+    {
+        question: "What is a row in Excel?",
+        answers: [
+            { text: "Vertical cells.", correct: "false"},
+            { text: "Horizontal cells.", correct: "true"},
+            { text: "Single cells", correct: "false"},
+            { text: "Page", correct: "false"},
+        ]
+    },
+    {
+        question: "What is a column in excel?",
+        answers: [
+            { text: "Vertical cells.", correct: "true"},
+            { text: "Horizontal cells.", correct: "false"},
+            { text: "Sheet.", correct: "false"},
+            { text: "Random cells.", correct: "false"},
+        ]
+    },
+    {
+        question: "Which function adds numbers?",
+        answers: [
+            { text: "MULTIPLY", correct: "false"},
+            { text: "SUM", correct: "true"},
+            { text: "DIVIDE", correct: "false"},
+            { text: "COUNTIF", correct: "false"},
+        ]
+    },
+    {
+        question: "What is the file extension for Excel?",
+        answers: [
+            { text: ".docx", correct: "false"},
+            { text: ".pptx", correct: "false"},
+            { text: ".xlsx", correct: "true"},
+            { text: ".cdr", correct: "false"},
+        ]
+    },
+    {
+        question: "Which of these tools creates charts?",
+        answers: [
+            { text: "Insert charts", correct: "true"},
+            { text: "spell checker", correct: "false"},
+            { text: "zoom", correct: "false"},
+            { text: "clipart", correct: "false"},
+        ]
+    },
+    {
+        question: "What is a worksheet?",
+        answers: [
+            { text: "A single excel page", correct: "true"},
+            { text: "A book", correct: "false"},
+            { text: "A formula", correct: "false"},
+            { text: "A cell", correct: "false"},
+        ]
+    },
+    {
+        question: "Which sortcut key edits all cells?",
+        answers: [
+            { text: "Enter", correct: "false"},
+            { text: "Tab", correct: "false"},
+            { text: "F2", correct: "true"},
+            { text: "Shift", correct: "false"},
+        ]
+    },
+    {
+        question: "Powerpoint is used to?",
+        answers: [
+            { text: "write letters", correct: "false"},
+            { text: "make presentations.", correct: "true"},
+            { text: "Draw logos", correct: "false"},
             { text: "None of the above.", correct: "false"},
         ]
     },
     {
-        question: "Which part of the computer is use to point and click?",
+        question: "Which file extension belongs to powerpoint?",
         answers: [
-            { text: "Mouse", correct: "true"},
-            { text: "CPU", correct: "false"},
-            { text: "Fan", correct: "false"},
-            { text: "Screen", correct: "false"},
+            { text: ".pptx", correct: "true"},
+            { text: ".xlsx", correct: "false"},
+            { text: ".docx", correct: "false"},
+            { text: ".cdr", correct: "false"},
         ]
     },
     {
-        question: "What does CPU stand for?",
+        question: "Which tool adds animation?",
         answers: [
-            { text: "Computer power unit", correct: "false"},
-            { text: "Central Processing unit", correct: "true"},
-            { text: "Computer power unit", correct: "false"},
-            { text: "Control print unit", correct: "false"},
+            { text: "Design.", correct: "false"},
+            { text: "Annimation.", correct: "true"},
+            { text: "Transitions.", correct: "false"},
+            { text: "Review.", correct: "false"},
         ]
     },
     {
-        question: "What device prints information on paper?",
+        question: "Which view shows the presentation as audience sees it?",
         answers: [
-            { text: "Mouse", correct: "false"},
-            { text: "Printer", correct: "true"},
-            { text: "Keyboard", correct: "false"},
-            { text: "Speaker", correct: "false"},
+            { text: "Normal view", correct: "false"},
+            { text: "Slide sorter view", correct: "false"},
+            { text: "Reading view", correct: "false"},
+            { text: "Slide show view", correct: "true"},
         ]
     },
     {
         question: "Which of this is an example of a computer?",
         answers: [
             { text: "Bicycle", correct: "false"},
-            { text: "Television", correct: "true"},
-            { text: "Laptop", correct: "false"},
+            { text: "Television", correct: "false"},
+            { text: "Laptop", correct: "true"},
             { text: "Book", correct: "false"},
         ]
     },
     {
-        question: "Which key is used to erase letters?",
+        question: "Which tool changes slide background?",
         answers: [
-            { text: "spacebar", correct: "false"},
-            { text: "Backspace", correct: "true"},
-            { text: "Enter", correct: "false"},
-            { text: "Shift", correct: "false"},
+            { text: "Design.", correct: "true"},
+            { text: "Insert", correct: "false"},
+            { text: "View", correct: "false"},
+            { text: "Review.", correct: "false"},
         ]
     },
     {
-        question: "What do we use the internet for?",
+        question: "What can you insert into slides?",
         answers: [
-            { text: "Eating food", correct: "false"},
-            { text: "Finding information", correct: "true"},
-            { text: "Sleeping", correct: "false"},
-            { text: "Running", correct: "false"},
+            { text: "Text.", correct: "false"},
+            { text: "Images.", correct: "false"},
+            { text: "videos", correct: "false"},
+            { text: "All of the above.", correct: "true"},
         ]
     },
     {
-        question: "Which key makes a new line when typing?",
+        question: "Corel draw is used for?",
         answers: [
-            { text: "Spacebar", correct: "false"},
-            { text: "Enter Key", correct: "true"},
-            { text: "Tab", correct: "false"},
-            { text: "Shift", correct: "false"},
-        ]
-    },
-    {
-        question: "Wich key is the longest key on the keyboard?",
-        answers: [
-            { text: "Enter key", correct: "false"},
-            { text: "Spacebar", correct: "true"},
-            { text: "CTRL key", correct: "false"},
-            { text: "Shift key", correct: "false"},
-        ]
-    },
-    {
-        question: "What is microsoft powerpoint mainly used for?",
-        answers: [
-            { text: "Writting letters", correct: "false"},
-            { text: "Making presentations", correct: "true"},
+            { text: "Typing documents", correct: "false"},
+            { text: "Making calculations", correct: "false"},
+            { text: "Graphic design", correct: "true"},
             { text: "Playing music", correct: "false"},
-            { text: "Editing photos", correct: "false"},
+        ]
+    },
+    {
+        question: "Wich tool selects objects?",
+        answers: [
+            { text: "Shape tool.", correct: "false"},
+            { text: "Pick tool.", correct: "true"},
+            { text: "Zoom tool", correct: "false"},
+            { text: "Text tool.", correct: "false"},
+        ]
+    },
+    {
+        question: "Which tool is used to type text?",
+        answers: [
+            { text: "Pick tool", correct: "false"},
+            { text: "Zoom tool", correct: "false"},
+            { text: "Text tool", correct: "true"},
+            { text: "Crop tool", correct: "false"},
         ]
     },
 
     {
-        question: "What is the default file extension for powerpoint?",
+        question: "What vector mean?",
+        answers: [
+            { text: "Pixel image", correct: "false"},
+            { text: "Editable graphics", correct: "true"},
+            { text: "Video file", correct: "false"},
+            { text: "Sound file", correct: "false"},
+        ]
+    },
+    {
+        question: "Which file extension belongs to corel draw?",
         answers: [
             { text: ".docx", correct: "false"},
-            { text: ".pptx", correct: "true"},
+            { text: ".pptx", correct: "false"},
+            { text: ".cdr", correct: "true"},
             { text: ".xlsx", correct: "false"},
-            { text: ".pdf", correct: "false"},
         ]
     },
     {
-        question: "Which shortcut is used to start a slide show from the beginning?",
+        question: "WhichWhich tool changes object color?",
         answers: [
-            { text: "Slideshow view", correct: "false"},
-            { text: "F5", correct: "true"},
-            { text: "CTRL + S", correct: "false"},
-            { text: "CTRL + P", correct: "false"},
+            { text: "Zoom tool", correct: "false"},
+            { text: "Fill tool", correct: "true"},
+            { text: "Pick tool", correct: "false"},
+            { text: "Crop tool", correct: "false"},
         ]
     },
     {
-        question: "Which view in powerpoint shows all the slides as thumbnails?",
+        question: "CorelDraw is best for designing...?",
         answers: [
-            { text: "slideshow view", correct: "false"},
-            { text: "slide sorter view", correct: "true"},
-            { text: "Reading view", correct: "false"},
-            { text: "Normal view", correct: "false"},
+            { text: "Letters", correct: "false"},
+            { text: "Spreadsheets", correct: "false"},
+            { text: "Logos and banners", correct: "true"},
+            { text: "Presentations", correct: "false"},
         ]
     },
     {
-        question: "Which feature is used to apply motion to a text or object?",
+        question: "Which Which part of the computer is called the brain?",
         answers: [
-            { text: "Transition", correct: "false"},
-            { text: "Animation", correct: "true"},
-            { text: "Design", correct: "false"},
-            { text: "Layout", correct: "false"},
+            { text: "Monitor", correct: "false"},
+            { text: "Keyboard", correct: "false"},
+            { text: "CPU", correct: "true"},
+            { text: "Mouse", correct: "false"},
         ]
     },
     {
-        question: "Which tab contains the option to isert pictures?",
+        question: "which device is used to type letters and numbers?",
         answers: [
-            { text: "Review", correct: "false"},
-            { text: "Insert", correct: "true"},
-            { text: "Design", correct: "false"},
-            { text: "Home", correct: "false"},
+            { text: "mouse", correct: "false"},
+            { text: "monitor", correct: "false"},
+            { text: "keyboard", correct: "true"},
+            { text: "piano", correct: "false"},
         ]
     },
     {
-        question: "What is the name of the first slide of a presentation?",
+        question: "which memory is temporary?",
         answers: [
-            { text: "Title slide", correct: "true"},
-            { text: "Summary slide", correct: "false"},
-            { text: "Layout slide", correct: "false"},
-            { text: "Intro slide", correct: "false"},
+            { text: "ROM", correct: "false"},
+            { text: "Cache", correct: "false"},
+            { text: "Hard Disk", correct: "false"},
+            { text: "RAM", correct: "true"},
         ]
     },
     {
-        question: "which shortcut saves your powerpoint presentation?",
+        question: "What is a driver ?",
         answers: [
-            { text: "CTRL + S", correct: "true"},
-            { text: "CTRL + C", correct: "false"},
-            { text: "CTRL + P", correct: "false"},
-            { text: "CTRL + K", correct: "false"},
+            { text: "A game", correct: "false"},
+            { text: "A person that drives the school bus", correct: "false"},
+            { text: "A software that helps hardware work", correct: "true"},
+            { text: "A computer virus", correct: "false"},
         ]
     },
     {
-        question: "which option changes the design and look of all slides at once?",
+        question: "which of these takes pictures for the computer?",
         answers: [
-            { text: "Slide master", correct: "true"},
-            { text: "Animation pane", correct: "false"},
-            { text: "Notes pane", correct: "false"},
-            { text: "Transition pane", correct: "false"},
-        ]
-    },
-    {
-        question: "which file extention is for powerpoint tempaltes?",
-        answers: [
-            { text: ".potx", correct: "true"},
-            { text: ".doc", correct: "false"},
-            { text: ".xlsx", correct: "false"},
-            { text: ".pdf", correct: "false"},
+            { text: "Speaker", correct: "false"},
+            { text: "Webcam", correct: "true"},
+            { text: "Printer", correct: "false"},
+            { text: "Samsung S21", correct: "false"},
         ]
     },
     {
